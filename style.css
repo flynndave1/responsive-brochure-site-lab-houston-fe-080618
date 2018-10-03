@@ -1,0 +1,48 @@
+html .wrapper{
+  width:950px;
+  font-size:  20px;
+  color:red;
+  background-color: violet;
+  }
+  section {
+  width: 60%;
+  margin: 20;
+}
+  h1{
+    color:blue;
+    margin: 0  auto;
+  }
+
+
+img {
+    position: relative;
+    float: right;
+    width:  400px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    
+    
+}
+p  {
+  color: blue;
+}
+aside{
+  float:right;
+  font-size: 150%;
+  color: brown;
+  border: 4px;
+}
+article {
+  width: 500px;
+  float: left;
+  padding: 25px;
+  font-size: 200%;
+  
+}
+  @media (max-width: 800px) {
+  body {
+    background-color: blue;
+    font-size: 1.5em;
+  }}
